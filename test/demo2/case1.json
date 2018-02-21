@@ -1,0 +1,48 @@
+{
+  "id": "5bd8fb33-9051-4b91-88d4-b5033a964bb4",
+  "timestamp": "2018-02-21T18:37:28.589Z",
+  "lang": "ja",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "100万円",
+    "action": "demo2.demo2-amount",
+    "actionIncomplete": false,
+    "parameters": {
+      "number": 1000000
+    },
+    "contexts": [
+      {
+        "name": "demo2-followup",
+        "parameters": {
+          "number": 1000000,
+          "giftTax": "贈与税",
+          "number.original": "100万",
+          "giftTax.original": "贈与税"
+        },
+        "lifespan": 1
+      }
+    ],
+    "metadata": {
+      "intentId": "a3c82eb6-8c1c-4455-9b84-3a8109dc5fed",
+      "webhookUsed": "false",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "demo2 - amount"
+    },
+    "fulfillment": {
+      "speech": "1000000",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "1000000"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success",
+    "webhookTimedOut": false
+  },
+  "sessionId": "942b7dd5-1279-44c7-8de5-7cdfedb68f9f"
+}
