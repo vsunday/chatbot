@@ -1,0 +1,39 @@
+{
+  "id": "a0cb58e2-6104-4c82-885b-a5c2176dedf6",
+  "timestamp": "2018-02-22T19:49:30.623Z",
+  "lang": "ja",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "200万円",
+    "action": "demo2-2amount",
+    "actionIncomplete": false,
+    "parameters": {
+      "number": 2000000
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "140817a4-12f8-4592-af02-9a96228a65c2",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "webhookResponseTime": 158,
+      "intentName": "demo2-2 - amount"
+    },
+    "fulfillment": {
+      "speech": "すみません、聞き取れませんでした",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "すみません、聞き取れませんでした"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 206,
+    "errorType": "partial_content",
+    "errorDetails": "Webhook call failed. Error: 500 Internal Server Error",
+    "webhookTimedOut": false
+  },
+  "sessionId": "be35d430-fcce-4cf3-8aa1-c44358edc0e5"
+}

@@ -34,5 +34,6 @@ function demo3(params) {
 
 var actionFuncMap = {
   "demo2.demo2-amount": demo2demo2amount,
+  "demo2-2amount": demo2demo2amount,
   "demo3": demo3
 };
